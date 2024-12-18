@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 97%;
+            overflow: auto;
+            margin: auto;
+            background-color: #a4f0e3;
+
+        }
+        header{
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: palegreen;
+            overflow: hidden;
+        }
+        nav li{
+            float: left;
+        }
+        nav li a{
+            display: block;
+            text-decoration: none;
+            color: #000000;
+            padding: 15px 13px;
+            text-align: center;
+        }
+        nav li a:hover{
+            background-color: rgb(134, 247, 247);
+        }
+        section{
+            width: 65%;
+            margin: 5px;
+            float: left;
+            padding: 5px;
+            border: solid 1pt black;
+            background-color: #CDF0EA;
+        }
+        aside{
+            display: inline-block;
+            margin: 5px;
+            padding: 5px;
+            width: 27%;
+            position: inherit;
+            border: solid 1pt black;
+            vertical-align: top;
+            }
+        footer{
+            margin-top: 10px;
+            width: 95%;
+            margin: auto;
+            height: 30px;
+            background-color: #CDF0EA;
+            text-align: center;
+        }
+        figure{
+            float: left;
+            margin-top: 0;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: solid 1pt black;
+            background-color: #CDF0EA;
+        }
+        figcaption{
+            text-align: left;
+            color: #000;
+            font-weight: bold;
+        }
+        article{
+            height: 200px;
+            overflow: auto;
+            text-align: justify;
+            background-color: #CDF0EA;
+            margin: 5px;
+            padding: 5px;
+
+        }
+        h1,h2,h3{
+            color: black;
+            text-shadow: 1px 1px #CDF0EA;
+        }
+        aside{
+            border: dotted 2px #000000;
+            background-image: radial-gradient(white, white);
+        }
+        a{
+            text-shadow: none;;
+        }
+        ul{
+            list-style: square;
+        }
+        hgroup{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id ="container">
+        <header>
+            <img src="Deccan_Herald_logo.svg" " alt="Deccan Herald" width="500"/>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#Sports">Sports News</a></li>
+                    <li><a href= "#Breaking">Breaking News</a></li>
+                    <li><a href="#Technology">Technology News</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="Sports">
+            <h2>Sports News</h2>
+            <article>
+                <h3>Barcelona's high-stakes approach pays off in 4-0 El Clasico triumph</h3>
+                <figure>
+                    <img src="images.jpeg" alt="Lamine Yamal" width="300px" />
+                    <figcaption>Lamine Yamal</figcaption>
+                </figure>
+               In a thrilling 4-0 El Clasico victory over Real Madrid, Barcelona reaped the benefits of Hansi Flick’s high-risk, high-reward style.
+                The front three shined again, each nabbing goal contributions, while the defense maintained a clean sheet against a threatening Madrid attack.
+            </article>
+        </section>
+        <section id="Breaking">
+            <h2>Latest News</h2>
+            <article>
+                <h3>Security tightened across north Kashmir</h3>
+                <figure>
+                    <img src = "kashmir.jpeg" alt = "Kashmir" width="400px"/>
+                    <figcaption>Soldiers in Kashmir</figcaption>
+                </figure>
+                In the aftermath of the attack on the Army in the Butapathri area of Gulmarg in Baramulla district, security has been heightened across north Kashmir while the Cordon and Search Operation (CASO) has been extended in Gulmarg forests and nearby areas.
+
+A top official said that the security agencies have received high-level intelligence “disturbing” inputs, following which security measures have been intensified across the district.
+            </article>
+        </section>
+        <section id="Technology">
+            <h2>Technology News</h2>
+            <article>
+                <h3>Apple Intelligence could roll out today, Mac announcements expected too</h3>
+                <figure>
+                    <img src="apple.jpeg" alt="apple" width="400px"/>
+                    <figcaption>Apple Intelligence</figcaption>
+                </figure>
+                With the new updates, Apple may introduce intelligent tools for system-wide writing assistance, an updated Siri interface, notification summaries, photo editing tools, and more to eligible iPhones, Macs, and iPads. While the update will be available for all devices running the latest operating system, Apple Intelligence features will be limited to select eligible iPhones, Macs, and iPads.
+            </article>
+        </section>
+        <aside>
+            <hgroup>
+                <h3><a href="#">DC Exclusive Stories</a></h3>
+                <h3><a href="#Sports">Sports</a></h3>
+                <h3><a href="#Breaking">Breaking News</a></h3>
+            </hgroup>
+            <figure>
+                <img src="ad.webp" alt="ad" width="400"/>
+            </figure>
+        </aside>
+    </div>
+    <footer>
+        <h4>| Poorab R Jain | Department of CSE | 2022-2026 |</h4>
+    </footer>
+</body>
+</html>
